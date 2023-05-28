@@ -9,7 +9,7 @@ export default async function Contact() {
     <main>
       <h4>Contact page</h4>
       <ol>
-        {posts.map((post) => (
+        {posts.map((post: any) => (
           <li>{post.title}</li>
         ))}
       </ol>
